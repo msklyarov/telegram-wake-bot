@@ -1,0 +1,23 @@
+{
+  "name": "tgn-wind",
+  "version": "1.0.0",
+  "description": "Telegram bot to check wind in taganrog port",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sklyarov Ivan",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "node-telegram-bot-api": "^0.27.1",
+    "puppeteer": "^1.17.0",
+    "request": "^2.81.0",
+    "sharp": "^0.21.3",
+    "tesseract.js": "^1.0.14"
+  },
+  "engines": {
+    "node": "7.10.1"
+  }
+}
